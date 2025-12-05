@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About – Eiva Orce</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eiva Orce – Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
-  <h1>About Me</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="index.html" class="nav-home">Eiva Orce</a>
+            <div class="nav-links">
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </nav>
+        <h1 class="page-title">Data Scientist</h1>
+    </header>
 
-<section>
-  <p>
-    I’m Eiva Orce — a data scientist who loves uncovering data patterns and telling stories with data.
-    I focus on building solutions that make data accessible to everyone.
-  </p>
+    <main class="card-container">
+        
+        <a href="about.html" class="card about-card">
+            <h2 class="card-title">About</h2>
+            <div class="icon-grid">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+                    <line x1="10" y1="50" x2="90" y2="50" stroke="#444" stroke-width="4"/>
+                    <line x1="50" y1="10" x2="50" y2="90" stroke="#444" stroke-width="4"/>
+                    <line x1="30" y1="10" x2="30" y2="90" stroke="#444" stroke-width="4"/>
+                    <line x1="70" y1="10" x2="70" y2="90" stroke="#444" stroke-width="4"/>
+                    <line x1="10" y1="30" x2="90" y2="30" stroke="#444" stroke-width="4"/>
+                    <line x1="10" y1="70" x2="90" y2="70" stroke="#444" stroke-width="4"/>
+                </svg>
+            </div>
+        </a>
 
-  <p>
-    Whether it's exploratory analysis or predictive modeling, I care about clarity, curiosity,
-    and thoughtful design in the work I create.
-  </p>
-</section>
+        <a href="projects.html" class="card projects-card">
+            <h2 class="card-title">Projects</h2>
+            <div class="icon-placeholder">📈</div> 
+        </a>
 
-<footer>© 2025 Eiva Orce</footer>
+        <a href="contact.html" class="card contact-card">
+            <h2 class="card-title">Contact</h2>
+            <div class="icon-placeholder">📬</div> 
+        </a>
+        
+    </main>
+    <footer class="main-footer">© 2025 Eiva Orce</footer>
 </body>
 </html>
