@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Eiva Orce</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Eiva Orce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>Eiva Orce</h1>
-    <p class="tagline">About Me</p>
+    <header>
+        <h1>Eiva Orce<span class="cursor">_</span></h1> 
+        <p class="tagline">About Me</p>
 
-    <!-- Navigation -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="project.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
     
-    <main class="card-container">
+    <main class="terminal-card">
+        <h2>Eiva Orce</h2>
         
-        <a href="index.html" class="card index-card">
-            <h2 class="card-title">Home</h2>
-            <div class="icon-grid">🏠</div>
-        </a>
-    
-        <a href="projects.html" class="card projects-card">
-            <h2 class="card-title">Projects</h2>
-            <div class="icon-placeholder">📈</div> 
-        </a>
-    
-        <a href="contact.html" class="card contact-card">
-            <h2 class="card-title">Contact</h2>
-            <div class="icon-placeholder">📬</div> 
-        </a>
-        
+        <section class="about-page-content">
+            
+            <div class="profile-photo-container">
+                <img src="profile_pic.jpg" class="profile-photo" alt="Eiva Orce Profile Picture">
+            </div>
+            
+            <div class="profile-bio">
+                <p>
+                    <span class="highlight">I’m Eiva Orce</span> — a Data Scientist who specializes in transforming complex information into clarity. My focus is on building robust models, conducting rigorous exploratory data analysis, and creating actionable insights that drive smarter decisions.
+                </p>
+                <p>
+                    My journey in data science began with a deep curiosity for uncovering hidden patterns in data and a passion for creative problem-solving. I prioritize clear communication and thoughtful design in every project, ensuring that data solutions are accessible and impactful.
+                </p>
+                <p>
+                    I currently work primarily with Python (NumPy, Scikit-learn, TensorFlow), R, SQL, and cloud platforms like AWS. I am also committed to contributing to open-source projects and fostering a culture of continuous learning.
+                </p>
+                <p class="highlight">
+                    [System Log: Initialization complete. Data pipelines nominal.]
+                </p>
+            </div>
+        </section>
+
     </main>
-<footer class="main-footer">© 2025 Eiva Orce</footer>
+
+    <footer class="main-footer">© 2025 Eiva Orce</footer>
 </body>
 </html>
